@@ -1,0 +1,50 @@
+.welcome-container {
+  background-color: #1e293b;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+  font-size: 64px;
+
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 96px;
+  }
+}
+
+.description {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 36px;
+  }
+}
+.subscribeBtn {
+  color: #1e293b;
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .subscribeBtn {
+    font-size: 18px;
+  }
+}
